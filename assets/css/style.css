@@ -39,3 +39,51 @@ body{
 .link:hover {
     color: #0053ff;
 }
+
+.acesso{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 530px;
+}
+
+.text-title {
+    color: #030303;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.text-body {
+    color: #030303;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.text-btn {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    font-weight: 600;
+    border: none;
+    background-color: #0053ff;
+    padding: 15px 20px;
+    max-width: fit-content;
+    color: white;
+    text-transform: uppercase;
+}
+
+.acesso-img {
+    max-width: 60%;
+}
+
